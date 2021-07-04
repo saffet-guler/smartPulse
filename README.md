@@ -1,8 +1,8 @@
 # smartPulse
 
-* TASK 1 : Benzer Özellikteki Günlerin Belirlenmesi *
+## TASK 1 : Benzer Özellikteki Günlerin Belirlenmesi
 
-AMAÇ :  nisan_ptf_smf_netYon excel dosyasındaki verilerden yararlanarak ve kendi belirleyeceğiniz bir kümeleme algoritmasını kullanarak birbiri ile benzer özellik taşıyan günlerin belirlenmesi.
+### AMAÇ :  nisan_ptf_smf_netYon excel dosyasındaki verilerden yararlanarak ve kendi belirleyeceğiniz bir kümeleme algoritmasını kullanarak birbiri ile benzer özellik taşıyan günlerin belirlenmesi.
 
 BEKLENENLER :
 
@@ -16,9 +16,9 @@ BEKLENENLER :
 
 5-	Kümeleme sonuçlarını görselleştirerek sonuçlar üzerinden analiz yapılması ve tüm bu adımların bir rapor halinde sunulması.
 
-TASK 2 : Santral Üretim Tahmini
+## TASK 2 : Santral Üretim Tahmini
 
-AMAÇ : powerplant_data excel dosyasındaki verilerden yararlanarak her hangi bir makine öğrenmesi ve ya derin öğrenme algoritması ile, ilgili rüzgar enerjisi santraline ait yeni üretim tahminin, bir backtest algoritması tasarlanarak yapılması.
+### AMAÇ : powerplant_data excel dosyasındaki verilerden yararlanarak her hangi bir makine öğrenmesi ve ya derin öğrenme algoritması ile, ilgili rüzgar enerjisi santraline ait yeni üretim tahminin, bir backtest algoritması tasarlanarak yapılması.
 
 VERİSETİ TANIMI : 
 
@@ -62,9 +62,9 @@ DİKKAT EDİLMESİ GEREKENLER :
 
 5-	Yukarıdaki maddelerdeki tüm durumların kontrollerinin kod ile yapılması gerekmektedir.
 
-TASK 3 : SQL Sorguları
+## TASK 3 : SQL Sorguları
 
-AMAÇ : Aşağıda verilen veritabanı şemasına göre belirtilen SQL sorgularının yazılması.
+### AMAÇ : Aşağıda verilen veritabanı şemasına göre belirtilen SQL sorgularının yazılması.
 
 1-	İsmi Ahmet olan kullanıcıların email adresleri.
 
