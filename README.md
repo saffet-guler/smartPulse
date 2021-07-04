@@ -4,7 +4,7 @@
 
 ### AMAÇ :  nisan_ptf_smf_netYon excel dosyasındaki verilerden yararlanarak ve kendi belirleyeceğiniz bir kümeleme algoritmasını kullanarak birbiri ile benzer özellik taşıyan günlerin belirlenmesi.
 
-BEKLENENLER :
+*BEKLENENLER :
 
 1-	Veriseti üzerinde gerekli ön işlemlerin yapılması
 
@@ -20,27 +20,27 @@ BEKLENENLER :
 
 ### AMAÇ : powerplant_data excel dosyasındaki verilerden yararlanarak her hangi bir makine öğrenmesi ve ya derin öğrenme algoritması ile, ilgili rüzgar enerjisi santraline ait yeni üretim tahminin, bir backtest algoritması tasarlanarak yapılması.
 
-VERİSETİ TANIMI : 
+#### VERİSETİ TANIMI : 
 
-instrument: İlgili t anı
+*instrument: İlgili t anı
 
-forecast_t-75m_value: İlgili t anından 75 dakika önce, t anına ait yapılan üretim tahmini
+*forecast_t-75m_value: İlgili t anından 75 dakika önce, t anına ait yapılan üretim tahmini
 
-generation_meteredby_device_t-0h: t saatinde santrale ait gerçekleşmiş üretim değeri
+*generation_meteredby_device_t-0h: t saatinde santrale ait gerçekleşmiş üretim değeri
 
-powerplantdata_t-0h_part0: t saatinin 0-10. dakikaları arasında santralin ortalama gücü. 
+*powerplantdata_t-0h_part0: t saatinin 0-10. dakikaları arasında santralin ortalama gücü. 
 
-powerplantdata_t-0h_part1: t saatinin 10-20. dakikaları arasında santralin ortalama gücü. 
+*powerplantdata_t-0h_part1: t saatinin 10-20. dakikaları arasında santralin ortalama gücü. 
 
-powerplantdata_t-0h_part2: t saatinin 20-30. dakikaları arasında santralin ortalama gücü. 
+*powerplantdata_t-0h_part2: t saatinin 20-30. dakikaları arasında santralin ortalama gücü. 
 
-powerplantdata_t-0h_part3: t saatinin 30-40. dakikaları arasında santralin ortalama gücü. 
+*powerplantdata_t-0h_part3: t saatinin 30-40. dakikaları arasında santralin ortalama gücü. 
 
-powerplantdata_t-0h_part4: t saatinin 40-50. dakikaları arasında santralin ortalama gücü. 
+*powerplantdata_t-0h_part4: t saatinin 40-50. dakikaları arasında santralin ortalama gücü. 
 
-generation_meteredby_device_t-1h: t-1 saatinde santrale ait gerçekleşmiş üretim değeri
+*generation_meteredby_device_t-1h: t-1 saatinde santrale ait gerçekleşmiş üretim değeri
 
-BEKLENENLER :
+#### BEKLENENLER :
 
 1-	Daha önce yapılmış olan üretim tahminini, ve santrale ait part verilerini kullanarak, makine öğrenmesi ve ya derin öğrenme tabanlı her hangi bir regresyon algoritması ile t saatine ait yeni bir üretim tahmini oluşturulması.
 
@@ -50,7 +50,7 @@ BEKLENENLER :
 
 4-	Üretilen tahminlerin başarısı, excel dosyasında forecast_t-75m_value kolonundaki tahminlerin başarısı ile karşılaştırılması. 
 
-DİKKAT EDİLMESİ GEREKENLER :
+#### DİKKAT EDİLMESİ GEREKENLER :
 
 1-	Santraller üretim tahmin değelerini ilgili t anının en geç 1 saat öncesine kadar ilgili kurumlara bildirmek zorundadırlar. Örneğin saat 14:00 için yapılacak üretim tahminini en geç saat 12:59’da yapabilirsiniz. Bu yüzden model geliştirmeye başlamadan önce veriseti üzerinde bu kurala uygun bazı kaydırma işlemleri yapmanız gerekmektedir.
 
