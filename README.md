@@ -4,7 +4,7 @@
 
 ### AMAÇ :  nisan_ptf_smf_netYon excel dosyasındaki verilerden yararlanarak ve kendi belirleyeceğiniz bir kümeleme algoritmasını kullanarak birbiri ile benzer özellik taşıyan günlerin belirlenmesi.
 
-**BEKLENENLER :
+**BEKLENENLER :**
 
 1-	Veriseti üzerinde gerekli ön işlemlerin yapılması
 
